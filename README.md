@@ -9,12 +9,20 @@ I wanted to uptake a project where I designed and built such device that maximiz
 ## Functionality
 There are two major functionalities that the Smart Doorbell can perform:
 ### Surveillance Functionality
-When a PIR Sensor on the Smart Doorbell detects motion near the door, a buzzer in the Smart Doorbell is sounded and an LED lights up to indicate surveillance is in progress. Simultaneously a camera activates and takes a picture every 5 seconds. When motion is no longer detected, LED turns off and the camera stops recording. The pictures are uploaded to cloud over wi-fi.
+When a PIR Sensor on the Smart Doorbell detects motion near the door, a buzzer in the Smart Doorbell is sounded and an LED lights up to indicate surveillance is in progress. Simultaneously a camera activates and takes a picture every 5 seconds. When motion is no longer detected, LED turns off and the camera deactivates. The pictures are uploaded to cloud over wi-fi.
 ### Doorbell Functionality 
 When a button to ring the bell is pressed on the Smart Doorbell, a speaker is sounded and a picture taken by the camera along with it's timestamp is sent to your personal device via a telegram bot.
 
 ## Bill of Materials
-|Part/Component|Usage|Price|
+|Part/Component|Usage|Cost|
 |--------------|-----|-----|
 |Perfboard|Prototyping Board|£0.25|
-|18650 Li-ion Rechargeable Battery|Power Supply|£3.50|
+|18650 Li-ion 3.7v Rechargeable Battery|Power Supply|£3.03|
+|TP4056 Li-ion 3.7v Charging Module Overcurrent Protection Board|Charging the Battery|£1.11|
+|MT3608 Step-Up Boost Converter|Voltage Boost|£0.34|
+|Momentary Reset Short Push Button|Button for Bell|£1.50|
+
+##Schematic
+The Schematic ""
+
+
