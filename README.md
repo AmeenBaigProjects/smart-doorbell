@@ -14,15 +14,15 @@ When a PIR Sensor on the Smart Doorbell detects motion near the door, a buzzer i
 When a button to ring the bell is pressed on the Smart Doorbell, a speaker is sounded and a picture taken by the camera along with it's timestamp is sent to your personal device via a telegram bot.
 
 ## Bill of Materials
-|Part/Component|Usage|Cost|
-|--------------|-----|-----|
-|Perfboard|Prototyping Board|£0.25|
-|18650 Li-ion 3.7v Rechargeable Battery|Power Supply|£3.03|
-|TP4056 Li-ion 3.7v Charging Module Overcurrent Protection Board|Charging the Battery|£1.11|
-|MT3608 Step-Up Boost Converter|Voltage Boost|£0.34|
-|Momentary Reset Short Push Button|Button for Bell|£1.50|
+|Reference|Part/Component|Usage|Cost|
+|---------|--------------|-----|-----|
+|-|Perfboard|Prototyping Board|£0.25|
+|B1|18650 Li-ion 3.7v Rechargeable Battery Cell|Power Supply|£3.03|
+|-|TP4056 Li-ion 3.7v Charging Module + Overcurrent Protection Board|Charging the Battery|£1.11|
+|-|MT3608 Step-Up Boost Converter|Voltage Boost|£0.34|
+|-|Momentary Reset Short Push Button|Button for Bell|£1.50|
 
-##Schematic
-The Schematic ""
+## Schematic
+The Schematic ""          
 
 
