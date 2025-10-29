@@ -1,4 +1,5 @@
 # smart-doorbell
+# Overview
 ## What and Why
 As of recent, there has been a massive surge of home surveillance devices known as "Smart Doorbells". The main appeal of these devices, is their 2-in-1 functionality of behaving as a regular doorbell while providing video surveillance of the area near your door. What makes these devices "smart" is their IoT capabilities. You can get notified about any doorbell rings or suspicious activities near your door, and access video surviellance footage through your personal devices via online services or applications. 
 
@@ -13,14 +14,20 @@ When a PIR Sensor on the Smart Doorbell detects motion near the door, a buzzer i
 ### Doorbell Functionality 
 When a button to ring the bell is pressed on the Smart Doorbell, a speaker is sounded and a picture taken by the camera along with it's timestamp is sent to your personal device via a telegram bot.
 
-## Bill of Materials
+# Parts
+## Bill of Materials (BOM)
 |Reference|Part/Component|Usage|Cost|
 |---------|--------------|-----|-----|
 |-|Perfboard|Prototyping Board|£0.25|
 |B1|18650 Li-ion 3.7v Rechargeable Battery Cell|Power Supply|£3.03|
 |-|TP4056 Li-ion 3.7v Charging Module + Overcurrent Protection Board|Charging the Battery|£1.11|
 |-|MT3608 Step-Up Boost Converter|Voltage Boost|£0.34|
-|-|Momentary Reset Short Push Button|Button for Bell|£1.50|
+|-|Momentary Reset Short Push Button|Button to ring Bell|£1.50|
+|-|HC-SR501 PIR Motion Sensor|Motion Detection|£0.30|
+|-|ESP32-CAM Wi-Fi Microcontroller Module + OV2640 Camera Sensor|Control all functions and capture images using the OV2640 camera|£4.30|
+|-|2.4 GHz  Antenna|Wi-Fi signal transmission for ESP32-CAM|£0.90|
+
+*Note: Costs are approximate based on average retail prices (October 2025)*
 
 ## Schematic
 The Schematic ""          
