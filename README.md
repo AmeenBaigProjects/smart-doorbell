@@ -29,7 +29,12 @@ When a button to ring the bell is pressed on the Smart Doorbell, a speaker is so
 
 *Note: Costs are approximate based on average retail prices (October 2025)*
 
-## Schematic
-The Schematic ""          
+# Circuit Diagram
+The Schematic 
 
+# Code
+
+# Demo
+
+# Future Work
 
